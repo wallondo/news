@@ -1,0 +1,13 @@
+publicacoes{
+    nome,
+    img,
+    criador,
+    text,
+    data,
+    tipo,
+    like,
+    gosto,
+    img2,
+    not_like,
+    huart
+}

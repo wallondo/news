@@ -1,0 +1,69 @@
+header ol li a:hover{
+    position: relative;
+}
+header ol li a:active{
+    color: grey;
+}
+header ol li a::after{
+    transition: all .5s ease-out;
+    content: " ";
+    width: 0%;
+}
+header ol li a:hover::after{
+    content: " ";
+    width: 105%;
+    background-color: white;
+    display: flex;
+    height: 2px;
+    bottom: 0px;
+    position: absolute;
+    left: -3%;
+
+}
+.see_publishion:hover{
+    color: black;
+    border: 1px solid black !important;
+}
+.see_publishion:active{
+    background-color: rgba(1, 29, 51, 0.651) !important;
+    color: white !important;
+}
+.publications_top > div > button:hover{
+    background-color: black !important;
+}
+.publications_top > div > button:active{
+    outline: .5px solid black;
+}
+.interece a:hover{
+    background-color: rgba(1, 24, 43, 0.815);
+}
+.interece a:active{
+    color: black;
+    border: 1px solid black;
+}
+.parcer button:hover,.bt:hover{
+    background-color: rgba(1, 24, 43, 0.815);
+}
+.parcer button:active,.bt:active{
+    color: black;
+    border: 1px solid black;
+}
+.slid_home  button:hover{
+    background-color: rgba(1, 24, 43, 0.815);
+}
+.slid_home  button:active{
+    color: black;
+    border: 1px solid black;
+}
+
+.heart:hover,.good:hover,.bad:hover{
+    font-size: 100%;
+}
+
+.heart:active,.good:active,.bad:active{
+    font-size: 105%;
+}
+
+
+
+

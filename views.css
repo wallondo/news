@@ -1,0 +1,140 @@
+@media screen and (max-width:600px){
+    main{
+        
+    }
+    .home .nav_home{
+        
+    }
+    .nav_home > ol:first-of-type{
+        width: 100% !important;
+    }
+    .nav_home > div span p{
+        margin: .2rem;
+    }
+    .div_publish_home{
+        flex-direction: column;
+
+    }
+    .div_publish_home>div:first-child{
+    width: 100% !important;   
+    }
+    .div_publish_home > div article{
+        flex-direction: column-reverse;
+    }
+    .div_publish_home>div:first-child article>span:first-child{
+        width: 100% !important;
+    }
+    .div_publish_home>div:first-child article>span:last-child{
+        
+    }
+    .div_publish_home>div:first-child article>span:last-child{
+        width: 100% !important;
+        height: 200px;
+    }
+    .div_publish_home>div:first-child article>span:last-child img{
+        width: 100%;
+        height: 200px !important;
+    }
+    .div_publish_home>div:last-child{
+        width: 100% !important;
+
+    }
+    .div_publish_home_2 > article{
+        width: 100% !important;
+    }
+    
+    .sec_serv > article{
+        width: 100% !important;
+        justify-content: center;
+    }
+    .sec_serv > article > div:not(:last-of-type){
+        width: 100% !important;
+    }
+    .sec_serv >article:first-of-type{
+        width: 100% !important;
+    }
+
+    .sec_about{
+        width: 100% !important;
+    }
+    .just_published > div:first-child ol li {
+        justify-content: center;
+    }
+    .footer_home_div{
+        justify-content: center;
+    }
+    .just_published > div ol{
+        align-items: center;
+    }
+    .copryte{
+        align-items: center !important;
+    }
+
+
+    /* Noticias */
+
+    .destaks_news ol{
+        height: 100px !important;
+    }
+    .news_slid_slid{
+        flex-direction: column;
+    }
+    .news_slid_slid .novas{
+        width: 100% !important;
+    }
+    .slid1_art1 h2,.slid1_art1 p{
+        width: 100% !important;
+        text-indent: 1rem;
+    }
+    .slid1_art1 p{
+
+    }
+    .news_slid_slid > article{
+        width:  100% !important;
+        margin: .5rem 0rem;
+    }
+    .news_slid_slid > article > div{
+        width: 100% !important;
+    }
+    .economia_div{
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .economia_div>article,.economia_div>article>div{
+        width: 100% !important;
+    }
+    .coments ol li div span{
+        height: 190px !important;
+    }
+    .coments ol li div p{
+        font-size: 1.2rem;
+    }
+    .coments form{
+        margin-top: 7rem !important;
+    }
+    .word article{
+        width: 100% !important;
+        height: 350px !important;
+    }
+    .word article p{
+        font-size: 1.2rem;
+    }
+    .word article img{
+        height: 190px !important;
+    }
+
+    /* postagens */
+    .post_bt {
+        justify-content: end !important;
+    }
+    /* Serviços */
+    .sec7{
+        flex-direction: column;
+    }
+    .sec7 > article{
+        width: 100% !important;
+        margin: 1rem 0rem;
+    }
+
+
+}

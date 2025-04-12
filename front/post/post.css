@@ -1,0 +1,208 @@
+.post{
+    display: flex;
+    flex-direction: column;
+
+
+    min-height: 100vh;
+    min-width: 100%;
+}
+.post .post_header{
+    min-height: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.post .top_post{
+    flex-grow: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+.top_post .log_post{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.log_post a{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    align-self: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: -1px 1px 1px black;
+}
+.log_post h4{
+    text-align: center;
+}
+.post .nav_post{
+    width: 100%;
+    padding: 0px 1% 0px 5%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_post > ol:first-of-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    flex-wrap: wrap;
+}
+.nav_post ol li:not(:first-child){
+    border-left: .5px solid white;
+}
+.nav_post ol li{
+    border: none;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.nav_post ol li a{
+    margin: 0px 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    position: absolute;
+}
+.nav_post  > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav_post  > div input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 199, 199);
+    padding-left: 2%;
+    color: black;
+    outline: none;
+}
+.nav_post  > div input::placeholder{
+    color: rgba(255, 255, 255, 0.856);
+    text-shadow: -1px 1px 1px black;
+    font-size: .9rem;
+}
+.result_search{
+    position: absolute;
+    width: 99%;
+    top: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column !important;
+}
+.result_search li{
+    border: none !important;
+}
+.slid_post{
+    height: 350px;
+    width: 100%;
+    background-image: url("../../public/img/i4.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.h2_publications{
+    width: 100%;
+    padding-left: 5%;
+}
+
+
+
+.post .slid_home{
+    border-top: 5px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;;
+}
+.slid_video_div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slid_video_div video{
+    height: 100vh;
+}
+.slid_home button{
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(4, 64, 112, 0.425);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+
+
+
+.post_main{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+ h1{
+    width: 100%;
+    margin: 2% 0px 2% 0px;
+
+    color: rgb(0, 0, 0);
+    padding: 0px 5%;
+}
+.post_bt{
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+}
+.post_bt button{
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(4, 64, 112, 0.425);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

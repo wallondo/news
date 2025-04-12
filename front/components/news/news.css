@@ -1,0 +1,532 @@
+.news{
+    display: flex;
+    flex-direction: column;
+
+
+    min-height: 100vh;
+    min-width: 100%;
+}
+.padd{
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.news .news_header{
+    min-height: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.news .top_news{
+    flex-grow: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    justify-content: space-between;
+}
+.top_news .log_news{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.log_news a{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    align-self: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: -1px 1px 1px black;
+}
+.log_news h4{
+    text-align: center;
+}
+.log_op{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.log_op .span{
+    display: flex;
+    align-items: center;
+
+    border: 1px solid white;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    padding: 2px;
+
+
+    cursor: pointer;
+}
+.log_op span img{
+    width: 20px;
+    height: 20px;
+}
+.log_op span h3{
+    color: black;
+    font-size: 1rem;
+}
+
+.news .nav_news{
+    width: 100%;
+    padding: 0px 1% 0px 5%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_news > ol:first-of-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    flex-wrap: wrap;
+}
+.nav_news ol li:not(:first-child){
+    border-left: .5px solid white;
+}
+.nav_news ol li{
+    border: none;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.nav_news ol li a{
+    margin: 0px 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    position: absolute;
+}
+.nav_news  > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.destaks_news{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5%;
+}
+.destaks_news ol{
+    height: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.destaks_news ol li{
+    font-weight: 600;
+    
+}
+
+
+
+
+.result_search{
+    position: absolute;
+    width: 99%;
+    top: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column !important;
+
+    z-index: 1;
+}
+.result_search li{
+    border: none !important;
+}
+.news_slid{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+
+    flex-direction: column;
+    justify-content: end;
+}
+.news_slid_slid{
+    width: 100%;
+    min-height:400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_slid_slid .novas{
+    width: 60%;
+    display: flex;
+    position: relative;
+}
+.slid1_art1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slid1_art1 img{
+    height: 80%;
+    width: 100%;
+}
+.slid1_art1 h2{
+    width: 80%;
+}
+.slid1_art1 p{
+    font-size: 1.2rem;
+    color: grey;
+    width: 80%;
+}
+
+.news h1{
+    color: red;
+    background:transparent !important;
+    border: none;
+    text-align: start !important;
+}
+
+.news_slid_slid > article{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news_slid_slid > article > div > img{
+    width: 100%;
+    height: 100%;
+}
+.news_slid_slid > article > div{
+    min-width: 300px;
+    min-height: 200px;
+    width: 90%;
+}
+.news_slid_slid > article > div h2{
+    text-align: center;
+    margin: 5px 0px;
+}
+.news_slid_slid > article > div p{
+    text-align: start;
+    text-indent: 10px;
+    color: rgb(103, 103, 104);
+}
+
+
+
+
+.publicacoes_dest{
+    min-height: 400px;
+    width: 100%;
+    margin: 5% 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.publicacoes_dest_sec{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.publicacoes_dest_sec article{
+    width: 500px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publicacoes_dest_sec article > div > img{
+    width: 100%;
+    height: 100%;
+}
+.publicacoes_dest_sec > article > div{
+    min-width: 300px;
+    min-height: 200px;
+    width: 90%;
+    margin: 2px 0px;
+}
+.publicacoes_dest_sec > article > div h2{
+    text-align: center;
+    margin: 5px 0px;
+}
+ article > div p{
+    text-align: start;
+    text-indent: 10px;
+    color: rgb(103, 103, 104);
+    font-size: 17px;
+}
+
+.economia{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+.economia >article{
+    width: 100%;
+    min-height: 400px;
+}
+
+.economia >article > div:first-child{
+    min-height: 300px;
+}
+.economia >article > div img{
+    width: 100%;
+    height: 100%;
+}
+
+.economia_div{
+    display: flex;
+    align-items: start;
+    justify-content: space-between !important;
+
+}
+.economia_div article:first-child{
+    width: 590px;
+}
+
+.economia_div article >div:first-child{
+    width: 400px;
+    height: 400px;
+}
+.economia_div article:first-child >div:first-child{
+    width: 500px;
+    height: 400px;
+}
+.economia_div article div img{
+    width: 100%;
+    height: 100%;
+}
+
+.economia_div article:last-child{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.economia_div article:last-child > div{
+    width: 90%;
+
+}
+
+
+
+
+.coments{
+    min-height: 500px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.coments ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 2%;
+    flex-wrap: wrap;
+    max-height: 800px;
+    overflow: auto;
+}
+.coments ol li{
+    width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.coments ol li div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coments ol li div span{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.coments ol li div span img{
+    width: 100%;
+
+}
+.coments ol li div p{
+    width: 100%;
+
+}
+.coments ol li div small{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+
+.coments form{
+    height: 300px;
+    width: 250px;
+    margin: 10% auto 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.ola{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: -110px;
+    z-index: 1;
+}
+.coments form span{
+    position: relative;
+    min-height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 1%;
+}
+.coments form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coments form label{
+    font-weight: 700px;
+}
+.coments form div input{
+    width: 100%;
+    height: 30px;
+    border: .5px solid grey;
+    outline: none;
+}
+.coments form div textarea{
+    height: 50px;
+    min-height: 80px;
+    min-width: 80px;
+    max-height: 120px;
+    max-width: 100%;
+    outline: none;
+}
+.coments form div button{
+    width: 90%;
+    height: 30px;
+    cursor: pointer;
+    margin: 2% 0px;
+}
+
+
+
+.word{
+    min-height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 2%;
+    flex-wrap: wrap;
+}
+.word article{
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+}
+.word article img{
+    width: 100%;
+    height: 130px;
+}
+.word article small{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.word article small address:last-child{
+    text-decoration: underline;
+}
+
+
+.lidas{
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+    margin: 0px 0px 4% 0px;
+}
+
+.lidas > ol{
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lidas > ol li{
+    width: 45%;
+    font-size: 1.4rem;
+    margin: 1% 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

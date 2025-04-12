@@ -1,0 +1,191 @@
+.publishion_jusid{
+    width: 100%;
+    min-height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+
+.publishion_jusid article{
+    min-height:250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.publishion_jusid article > div:first-child{
+    background-image: url("/public/publi/carnaval.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height:290px;
+    width: 90%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 3%;
+    
+}
+.publishion_jusid article > div:first-child > div:first-of-type{
+    height: 30px;
+    width: 280px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.1rem;
+}
+.publishion_jusid article > div:first-child > div:first-of-type span{
+    text-decoration: underline;
+}
+.publishion_jusid article > div:first-child > div{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.publishion_jusid article > div:first-child > div>span{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.good_selected{
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+}
+.bad_selected{
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+}
+.heart_selected{
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+}
+.number_selected{
+    position: absolute;
+    right: 40%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publishion_jusid article > div:nth-child(2){
+    min-height:200px;
+    width: 90%;
+}
+
+.publishion_jusid article > div:nth-child(2) h2{
+    margin: 1% 0px;
+}
+
+.publishion_jusid article > div:nth-child(2) p{
+    margin: 1% 0px;
+}
+
+.coment{
+    min-height: 100px;
+    width: 90%;
+}
+
+.coment .coment_ol{
+    width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-height: 300px;
+    overflow: auto;
+}
+
+.coment .coment_ol li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 1px;
+}
+.coment .coment_ol li img{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 2%;
+}
+
+.coment .coment_ol li p{
+
+}
+
+.coment > div{
+    width: 250px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.coment > div span{
+    position: relative;
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+.coment > div span input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    padding-left: 1%;
+}
+.coment > div span button{
+    position: absolute;
+    right: 1px;
+    height: 23px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    background-color: rgba(4, 64, 112, 0.425);
+    color: white;
+    line-height: 23px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
